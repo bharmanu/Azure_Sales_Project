@@ -1,0 +1,19 @@
+{
+	"name": "ls_ap203storageaccount",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://ap203storageaccount.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_ap203keyvault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "datafactory-key"
+			}
+		}
+	}
+}

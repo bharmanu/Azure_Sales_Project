@@ -1,0 +1,9 @@
+{
+	"name": "ap203DataFactory",
+	"location": "canadaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "21876510-c656-4691-91b8-660f7d32b60e",
+		"tenantId": "56b62dbd-1ca2-4eb6-a10e-93cc69f0bdfe"
+	}
+}

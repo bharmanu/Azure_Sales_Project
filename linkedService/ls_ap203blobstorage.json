@@ -1,0 +1,19 @@
+{
+	"name": "ls_ap203blobstorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=ap203blobstorage;",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_ap203keyvault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "datafactory-blob-key"
+			}
+		}
+	}
+}
