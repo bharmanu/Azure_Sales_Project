@@ -1,0 +1,12 @@
+[
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/",
+        "sourceRelativeURL":"microsoft/sql-server-samples/master/samples/databases/adventure-works/data-warehouse-install-script/FactInternetSales.csv",
+        "sinkFileName":"FactInternetSales.csv"
+    },
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/",
+        "sourceRelativeURL":"microsoft/sql-server-samples/master/samples/databases/adventure-works/data-warehouse-install-script/FactInternetSalesReason.csv",
+        "sinkFileName":"FactInternetSalesReason.csv"
+    }
+]
