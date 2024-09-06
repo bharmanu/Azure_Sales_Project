@@ -1,0 +1,18 @@
+[
+    {
+        "folder_path": "silver/dim_customer",
+        "sp_name": "silver.sp_silver_dim_customer"
+    },
+    {
+        "folder_path": "silver/dim_date",
+        "sp_name": "silver.sp_silver_dim_date"
+    },
+    {
+        "folder_path": "silver/dim_employee",
+        "sp_name": "silver.sp_silver_dim_employee"
+    },
+    {
+        "folder_path": "silver/dim_geography",
+        "sp_name": "silver.sp_silver_dim_geography"
+    }
+]
