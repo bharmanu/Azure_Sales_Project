@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ap203DataFactory"
+		},
+		"ls_ap203blobstorage_connectionString": {
+			"value": "DefaultEndpointsProtocol=https;AccountName=ap203blobstorage;"
+		},
+		"ls_ap203keyvault1_properties_typeProperties_baseUrl": {
+			"value": "https://ap203keyvault1.vault.azure.net/"
+		},
+		"ls_ap203storageaccount_properties_typeProperties_url": {
+			"value": "https://ap203storageaccount.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		}
+	}
+}
