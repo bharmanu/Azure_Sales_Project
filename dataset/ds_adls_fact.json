@@ -22,7 +22,7 @@
 				"folderPath": "fact",
 				"fileSystem": "data"
 			},
-			"compressionCodec": "snappy"
+			"compressionCodec": "none"
 		},
 		"schema": []
 	},
