@@ -2,11 +2,14 @@
     {
         "sourceBaseURL":"https://raw.githubusercontent.com/",
         "sourceRelativeURL":"microsoft/sql-server-samples/master/samples/databases/adventure-works/data-warehouse-install-script/FactInternetSales.csv",
-        "sinkFileName":"FactInternetSales.parquet"
+        "sinkFileName":"FactInternetSales/FactInternetSales.parquet"
     },
     {
         "sourceBaseURL":"https://raw.githubusercontent.com/",
         "sourceRelativeURL":"microsoft/sql-server-samples/master/samples/databases/adventure-works/data-warehouse-install-script/FactInternetSalesReason.csv",
-        "sinkFileName":"FactInternetSalesReason.parquet"
+        "sinkFileName":"FactInternetSalesReason/FactInternetSalesReason.parquet"
     }
 ]
+
+
+
