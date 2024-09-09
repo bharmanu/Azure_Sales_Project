@@ -113,7 +113,7 @@
 											"type": "ParquetSink",
 											"storeSettings": {
 												"type": "AzureBlobFSWriteSettings",
-												"copyBehavior": "PreserveHierarchy"
+												"copyBehavior": "FlattenHierarchy"
 											},
 											"formatSettings": {
 												"type": "ParquetWriteSettings"
