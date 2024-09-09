@@ -19,7 +19,7 @@
 					"value": "@dataset().sinkFileName",
 					"type": "Expression"
 				},
-				"folderPath": "fact",
+				"folderPath": "fact/raw",
 				"fileSystem": "data"
 			},
 			"compressionCodec": "none"
