@@ -12,6 +12,10 @@
 			"metadata": "Secure string for 'connectionString' of 'ls_ap203blobstorage'",
 			"defaultValue": "DefaultEndpointsProtocol=https;AccountName=ap203blobstorage;"
 		},
+		"ls_ap203Databricksws_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0910-133645-ctaszesh"
+		},
 		"ls_ap203keyvault1_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://ap203keyvault1.vault.azure.net/"
@@ -59,6 +63,9 @@
 					},
 					"ls_github_properties_typeProperties_url": {
 						"value": "[parameters('ls_github_properties_typeProperties_url')]"
+					},
+					"ls_ap203Databricksws_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('ls_ap203Databricksws_properties_typeProperties_existingClusterId')]"
 					},
 					"ls_ap203storageaccount_properties_typeProperties_url": {
 						"value": "[parameters('ls_ap203storageaccount_properties_typeProperties_url')]"
