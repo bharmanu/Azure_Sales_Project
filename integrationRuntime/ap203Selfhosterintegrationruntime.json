@@ -1,0 +1,6 @@
+{
+	"name": "ap203Selfhosterintegrationruntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
